@@ -10,47 +10,95 @@
  <script>
 
 
-//      Task # 1
-document.write('<h1>','Question  # 1','</h1>','<br>')
-var positiveNumber = prompt('Please Enter Positive Number')
-document.write('Round of value==> ',Math.round(positiveNumber),'<br>');
-document.write('Floor Value==> ',Math.floor(positiveNumber),'<br>');
-document.write('Ceil Value==> ',Math.ceil(positiveNumber),'<br>');
+// //      Task # 1
+// document.write('<h1>','Question  # 1','</h1>','<br>')
+// var positiveNumber = prompt('Please Enter Positive Number')
+// document.write('Round of value==> ',Math.round(positiveNumber),'<br>');
+// document.write('Floor Value==> ',Math.floor(positiveNumber),'<br>');
+// document.write('Ceil Value==> ',Math.ceil(positiveNumber),'<br>');
 
-//      Task # 2
-document.write('<h1>','<hr>','Question # 2','</h1>','<br>')
-    var negetiveNumber =-2.673
-document.write('Round of value==> ',Math.round(negetiveNumber),'<br>');
-document.write('Floor Value==> ',Math.floor(negetiveNumber),'<br>');
-document.write('Ceil Value==> ',Math.ceil(negetiveNumber),'<br>');
+// //      Task # 2
+// document.write('<h1>','<hr>','Question # 2','</h1>','<br>')
+//     var negetiveNumber =-2.673
+// document.write('Round of value==> ',Math.round(negetiveNumber),'<br>');
+// document.write('Floor Value==> ',Math.floor(negetiveNumber),'<br>');
+// document.write('Ceil Value==> ',Math.ceil(negetiveNumber),'<br>');
 
-//      Tasl # 3
-document.write('<h1>','<hr>','Question # 3','</h1>','<br>')
-var absoluteNumber = prompt('Enter Negetive Number',-4)
-var abs = Math.abs(absoluteNumber)
-document.write('The Absolute Value is==> ',abs);
+// //      Tasl # 3
+// document.write('<h1>','<hr>','Question # 3','</h1>','<br>')
+// var absoluteNumber = prompt('Enter Negetive Number',-4)
+// var abs = Math.abs(absoluteNumber)
+// document.write('The Absolute Value is==> ',abs);
 
-//      Task # 4
-document.write('<h1>','<hr>','Question # 4','</h1>','<br>')
-var random = 8
-var ra =Math.random(random)
-var round = Math.round(ra)
-document.write('Please Refresh and Get random Value','<br>')
-document.write('Random dice Value is ==> ',round*4,'<br>');
-document.write('Random dice Value is ==> ',round*6);
+// //      Task # 4
+// document.write('<h1>','<hr>','Question # 4','</h1>','<br>')
+// var random = 8
+// var ra =Math.random(random)
+// var round = Math.round(ra)
+// document.write('Please Refresh and Get random Value','<br>')
+// document.write('Random dice Value is ==> ',round*4,'<br>');
+// document.write('Random dice Value is ==> ',round*6);
 
-//      Task # 5
-document.write('<h1>','<hr>','Question # 5','<br>')
-document.write('Please Refresh and Toss ','<br>')
-var coin = 5
-var random = Math.random(coin)
-var randomCoin =Math.round(random)
-if (randomCoin < 1) {
-document.write('( Heads )')
-}else{document.write('( Tails )')}
+// //      Task # 5
+// document.write('<h1>','<hr>','Question # 5','<br>')
+// document.write('Please Refresh and Toss ','<br>')
+// var coin = 5
+// var random = Math.random(coin)
+// var randomCoin =Math.round(random)
+// if (randomCoin < 1) {
+// document.write('( Heads )')
+// }else{document.write('( Tails )')}
 
 //      Task # 6
-// document.write('<h1>','<hr>','Question # 5','<br>')
+// 
+
+// var secretNum =Math.floor((Math.random()*10)+1)
+
+//  var userInp = 7//+prompt("enter your secret num plz ")
+//  if ( userInp == secretNum){
+// console.log("  congratulate the user  ");
+//  }
+//  else{
+//     console.log(" plz try again sir  ")
+//  }
+
+document.write('<h1>','<hr>','Question # 7','<br>')
+// Prompt the user to enter their weight
+var userInput = prompt("Please enter your weight:");
+
+// Parse the user input as a floating-point number
+var weight = parseFloat(userInput);
+
+// Check if the parsing was successful and the input is a valid number
+if (!isNaN(weight)) {
+  // Display the weight in the browser
+  document.write("<h3>Your weight is: " + weight + " kg</h3>");
+} else {
+  // Display an error message if the input is not a valid number
+  document.write("<p>Invalid input. Please enter a valid number for your weight.</p>");
+}
+  
+//      Task # 8
+// document.write('<h1>','<hr>','Question # 8','<br>')
+// var num = prompt('Chose Any number')
+// var arr =[2,4,6,8]
+// var flag =false
+// for(var i = 0;i<arr.length;i++){  
+//     if (num.includes(arr[i])) {
+//       document.write('congratulation <br> Correct number in your mind  :',num)
+//        var flag=true
+//     }
+
+// }
+// if (flag==false) {
+//     document.write('Please try again <br> uncorrect numder in your mind  :',num)
+// }
+
+
+
+
+
+    
     </script>
 </body>
 </html>
